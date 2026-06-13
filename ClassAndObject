@@ -1,17 +1,56 @@
+// Class : Class is a blueprint/template in Java
+
 class Car {
 
     String brand = "Toyota";
-    int speed = 120;
 
+    // Method
     void display() {
-        System.out.println("Brand: " + brand);
-        System.out.println("Speed: " + speed);
+
+        System.out.println("Brand : " + brand);
+
     }
 
     public static void main(String[] args) {
 
+        // Object : Object is a real instance of class
+
+        // Syntax :
+        // ClassName objectName = new ClassName();
+
         Car c = new Car();
+
+        // c is object
+
         c.display();
+
+    }
+}
+
+
+***********************************************************************
+
+
+
+// Object : Object is a real instance of class
+
+// Syntax :
+
+// ClassName objectName = new ClassName();
+
+class Car {
+
+    String brand = "Toyota";
+
+    public static void main(String[] args) {
+
+        // Object Creation
+
+        Car c = new Car();
+
+        // c is object
+
+        System.out.println(c.brand);
 
     }
 }
